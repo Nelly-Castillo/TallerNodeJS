@@ -1,0 +1,29 @@
+{
+  "name": "tallernodejs",
+  "version": "1.0.0",
+  "description": "This is a workshop for learning node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nelly-Castillo/TallerNodeJS.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express",
+    "PostMan",
+    "MySQL",
+    "CORS"
+  ],
+  "author": "Nelly Cadenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nelly-Castillo/TallerNodeJS/issues"
+  },
+  "homepage": "https://github.com/Nelly-Castillo/TallerNodeJS#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
