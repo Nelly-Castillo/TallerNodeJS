@@ -9,6 +9,7 @@ const user = require('./routes/user');
 const auth = require('./middelware/auth');
 const notFound = require('./middelware/notFound');
 const home = require('./middelware/home');
+const cors = require('./middelware/cors')
 
 dotenv.config();
 
@@ -16,6 +17,7 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
+app.use(cors);
 app.use(morgan('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); 
